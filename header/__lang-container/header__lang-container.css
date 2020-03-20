@@ -1,0 +1,7 @@
+.lang-container {
+    border: 1px solid blue;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+
+}
