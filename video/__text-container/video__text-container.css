@@ -1,0 +1,25 @@
+.video__text-container {
+  color: white;
+  padding-left: 30px;
+  z-index: 1;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+ 
+.video__text-container:hover ~ .video__overlay {
+  background-color: rgba(0, 0, 0, .5);
+}
+ 
+@media screen and (max-width: 900px) {
+  .video__text-container{
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+}
+ 
+@media screen and (max-width: 320px) {
+  .video__text-container{
+    padding-left: 16px;
+    padding-bottom: 16px;
+  }
+}

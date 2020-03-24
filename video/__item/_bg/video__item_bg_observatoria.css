@@ -1,0 +1,6 @@
+.video__item_bg_observatoria {
+  background-image: url(../../../images/observatoria.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
