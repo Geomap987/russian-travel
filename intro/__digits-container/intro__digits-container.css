@@ -1,0 +1,9 @@
+.intro__digits-container {
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__digits-container {
+    margin-top: 32px;
+    }
+  }
