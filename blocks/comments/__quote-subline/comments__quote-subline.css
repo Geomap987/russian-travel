@@ -1,0 +1,13 @@
+.comments__quote-subline {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  order: 3;
+}
+  
+@media screen and (max-width: 900px) {
+  .comments__quote-subline {
+    order: 2;      
+  }
+}

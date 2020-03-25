@@ -1,0 +1,5 @@
+.header__lang-container {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}

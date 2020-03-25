@@ -1,0 +1,35 @@
+@import url(./__container/footer__container.css);
+@import url(./__navigation/footer__navigation.css);
+@import url(./__link/footer__link.css);
+@import url(./__author/footer__author.css);
+
+.footer {
+  max-width: 1184px;
+  margin: auto;
+  padding: 164px 48px 48px 48px;
+}
+  
+@media screen and (max-width: 900px) {
+  .footer {
+    padding: 102px 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    padding: 64px 16px 16px 24px;
+  }
+}
+
+
+
+
+
+
+
+.footer__author {
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+

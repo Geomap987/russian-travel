@@ -1,0 +1,16 @@
+.lead__image-legend {
+  color: white;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-legend {
+    margin-left: 16px;
+  }
+}

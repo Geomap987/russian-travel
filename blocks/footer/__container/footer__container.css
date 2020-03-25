@@ -1,0 +1,14 @@
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 
+}
+  
+@media screen and (max-width: 720px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
