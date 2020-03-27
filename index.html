@@ -14,15 +14,15 @@
   <div class="page">
       <header class="header">
           <img class="header__logo" src="./images/logo.svg" alt="Логотип карты России">
-          <div class="header__lang-container">
-            <a class="header__lang-text header__lang-text_lang_ru" href="#">Ru</a>
-            <a class="header__lang-text header__lang-text_lang_en" href="#">En</a>
-          </div>
+          <ul class="header__lang-container">
+            <li class="header__lang-text header__lang-text_active" href="#">Ru</li>
+            <li class="header__lang-text" href="#">En</li>
+          </ul>
       </header>
   <main class="content">
       <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
-          <h3 class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</h3>
+          <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
           <img class="lead__image" src="./images/sleep.jpg" alt="Фотография спящей девушки в поезде">
           <p class="lead__image-legend">ваша полка - верхняя</p>
       </section>
@@ -143,23 +143,23 @@
         <h2 class="title">В&nbsp;глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
         <p class="subtitle">Видео от&nbsp;студии Stereotactic о&nbsp;местах в&nbsp;России, где ведутся фундаментальные исследования</p>
         <div class="video__container">
-          <a class="video__item video__item_bg_kamchatka" target="_blank" href="https://vimeo.com/81106671">
-              <img class="video__icon" src="./images/icon-play.svg" alt="Иконка проигрывателя">
-              <div class="video__text-container">
-                <p class="video__duration">6:30</p>
-                <h4 class="video__title">Colors of Kamchatka</h4>
-                <p class="video__subtitle">Director: Pavel Karykhalin</p>
+          <a class="video-item video-item_bg_kamchatka" target="_blank" href="https://vimeo.com/81106671">
+              <img class="video-item__icon" src="./images/icon-play.svg" alt="Иконка проигрывателя">
+              <div class="video-item__text-container">
+                <p class="video-item__duration">6:30</p>
+                <h4 class="video-item__title">Colors of Kamchatka</h4>
+                <p class="video-item__subtitle">Director: Pavel Karykhalin</p>
               </div>
-              <div class="video__overlay"></div>
+              <div class="video-item__overlay"></div>
           </a>
-          <a class="video__item video__item_bg_observatoria" target="_blank" href="https://vimeo.com/290675450">
-              <img class="video__icon" src="./images/icon-play.svg" alt="Иконка проигрывателя">
-              <div class="video__text-container">
-                <p class="video__duration">24:45</p>
-                <h4 class="video__title">Обсерватория | Observatory</h4>
-                <p class="video__subtitle">Director: Alexander Khudokon</p>
+          <a class="video-item video-item_bg_observatoria" target="_blank" href="https://vimeo.com/290675450">
+              <img class="video-item__icon" src="./images/icon-play.svg" alt="Иконка проигрывателя">
+              <div class="video-item__text-container">
+                <p class="video-item__duration">24:45</p>
+                <h4 class="video-item__title">Обсерватория | Observatory</h4>
+                <p class="video-item__subtitle">Director: Alexander Khudokon</p>
               </div>
-              <div class="video__overlay"></div>
+              <div class="video-item__overlay"></div>
           </a>
         </div> 
       </section>
@@ -198,13 +198,13 @@
     </main>
     <footer class="footer">
       <div class="footer__container">
-        <nav class="footer__navigation">
-          <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
-          <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
-          <a class="footer__link" target="_blank" href="https://rasp.yandex.ru/">Расписание</a>
-          <a class="footer__link" target="_blank" href="https://calendar.yandex.ru/">Календарь</a>
-          <a class="footer__link" target="_blank" href="https://travel.yandex.ru/">Путешествия</a>
-        </nav>
+        <ul class="footer__navigation">
+          <li class="footer__link"><a target="_blank" href="https://yandex.ru/maps">Карты</a></li>
+          <li class="footer__link"><a target="_blank" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li class="footer__link"><a target="_blank" href="https://rasp.yandex.ru/">Расписание</a></li>
+          <li class="footer__link"><a target="_blank" href="https://calendar.yandex.ru/">Календарь</a></li>
+          <li class="footer__link"><a target="_blank" href="https://travel.yandex.ru/">Путешествия</a></li>
+        </ul>
         <p class="footer__author">&copy; 2020. Мария Васильева</p>
       </div>
     </footer>

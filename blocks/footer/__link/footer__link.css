@@ -3,6 +3,7 @@
   line-height: 41px;
   text-decoration: none;
   color: white;
+  list-style: none;
   padding-right: 18px;
   transition: opacity .8s ease-out;
 }

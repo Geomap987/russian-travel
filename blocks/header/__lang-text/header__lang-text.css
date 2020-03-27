@@ -1,5 +1,4 @@
-@import url(./_lang/header__lang-text_lang_ru.css);
-@import url(./_lang/header__lang-text_lang_en.css);
+
 
 .header__lang-text {
   color: white;
@@ -7,6 +6,8 @@
   margin-right: 18px;
   margin-top: 17px;
   transition: opacity .8s ease-out;
+  list-style: none;
+  text-decoration: none;
 }
 
 .header__lang-text:nth-of-type(2) {
@@ -17,7 +18,7 @@
   opacity: .5;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 680px) {
   .header__lang-text {
     font-size: 18px;
     margin-right: 16px;

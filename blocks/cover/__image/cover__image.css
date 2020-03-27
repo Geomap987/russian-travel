@@ -24,7 +24,7 @@
   }
 }
   
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .cover__image {
     height: 272px;
   }
