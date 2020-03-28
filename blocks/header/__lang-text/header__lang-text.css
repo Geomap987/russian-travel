@@ -1,12 +1,9 @@
-
-
 .header__lang-text {
   color: white;
   font-size: 24px;
-  margin-right: 18px;
+  margin-right: 0;
   margin-top: 17px;
   transition: opacity .8s ease-out;
-  list-style: none;
   text-decoration: none;
 }
 
@@ -21,6 +18,5 @@
 @media screen and (max-width: 680px) {
   .header__lang-text {
     font-size: 18px;
-    margin-right: 16px;
   }
 }
